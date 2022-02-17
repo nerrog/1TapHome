@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "taphome",
+  "version": "${version}",
+  "name": "1TapHome",
+  "description": "",
+  "authors": [
+    "nerrog"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/taphome/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.nerrog.taphome.client.taphome"
+    ]
+  },
+  "mixins": [
+    "1TapHome.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.2",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
